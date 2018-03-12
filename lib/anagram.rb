@@ -16,6 +16,8 @@ class Anagram
         end
     end
 
+    @word_array[0]
+
   end
 
 end

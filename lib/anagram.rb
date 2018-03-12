@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(word_array)
-
+    @index = nil
     @word_array = word_array
 
     @word_array.each_with_index do |word, i|

@@ -11,7 +11,7 @@ class Anagram
     @word_array = word_array
 
     @word_array.each do |word|
-
+      
     end
 
   end

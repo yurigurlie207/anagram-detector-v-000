@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word, :word_array
+  attr_accessor :word, :word_array, :matched_words
 
   def initialize(word)
     @word = word.chars.sort.join

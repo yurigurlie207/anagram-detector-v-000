@@ -7,16 +7,15 @@ class Anagram
   end
 
   def match(word_array)
-    @index = nil
     @word_array = word_array
 
     @word_array.each_with_index do |word, i|
         if word.chars.sort.join == @word
-          @index = i
+          @matched_words <<
         end
     end
 
-    @word_array[i]
+    @matched_words
 
   end
 

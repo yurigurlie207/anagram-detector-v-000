@@ -12,7 +12,7 @@ class Anagram
 
     @word_array.each_with_index do |word, i|
         if word.chars.sort.join == @word
-          @matched_words << @word
+          @matched_words << word
         end
     end
 

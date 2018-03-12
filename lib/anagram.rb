@@ -10,8 +10,8 @@ class Anagram
 
     @word_array = word_array
 
-    @word_array.each do |word|
-      
+    @word_array.each_with_index do |word|
+
     end
 
   end

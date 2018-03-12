@@ -3,13 +3,15 @@ class Anagram
   attr_accessor :word, :word_array
 
   def initialize(word)
-    @word = word
+    @word = word.chars.sort.join
   end
 
   def match(word_array)
+
     @word_array = word_array
 
     @word_array.each do |word|
+
     end
 
   end

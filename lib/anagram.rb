@@ -11,7 +11,9 @@ class Anagram
     @word_array = word_array
 
     @word_array.each_with_index do |word, i|
-
+        if word.chars.sort.join == @word
+          @index = i
+        end
     end
 
   end
